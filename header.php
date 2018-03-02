@@ -45,22 +45,22 @@
 						</div>
 					</div>
 
-					<div class="col-lg-5" >
+					<div class="col-lg-4" >
 							
 					</div>
 
-					<div class="home-contacto col-lg-3" >
+					<div class="home-contacto col-lg-4" >
 					
 		               <form class=" " action="" method="POST">
 					   <div class="form-row">
 							<div class="col">
-							<input type="text" class="form-control">
+							<input type="text" class="contorno" placeholder="E-mail"/>
 							</div>
 							<div class="col">
-							<input type="text" class="form-control">
+							<input type="text" class=" " placeholder="Password"/>
 							</div>
-							<div class="col">
-							<input type="submit" class="btn btn-sesion" >
+							<div class="">
+							<input type="submit" class="btn btn-sesion" value="Entrar" >
 							</div>
 						</div>
 					   </form>    

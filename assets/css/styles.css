@@ -48,7 +48,8 @@ body {
     margin-top: 20px; }
 
 .home-inicio {
-  padding-left: 5px; }
+  padding-left: 75px;
+  padding-top: 11px; }
 
 .home-menu {
   padding-bottom: 21px;
@@ -63,7 +64,7 @@ body {
 
 .home-contacto {
   color: #fff;
-  padding-top: 18px; }
+  padding-top: 26px; }
   .home-contacto i {
     font-size: 18px; }
 
@@ -579,7 +580,20 @@ body {
       padding-top: 130px; } }
 
 .registro_juntar {
-  padding-top: 95px; }
+  margin: 0 auto;
+  padding-top: 95px;
+  width: 92%;
+  margin-bottom: 75px; }
   @media (max-width: 480px) {
     .registro_juntar {
       padding-top: 130px; } }
+
+/*css para el boton de iniciar session
+  -------------------------------------*/
+.btn-sesion {
+  height: 31px;
+  color: #fff;
+  background-color: #513e7a;
+  border-color: #fff; }
+  .btn-sesion:hover {
+    background-color: #6c43c4; }

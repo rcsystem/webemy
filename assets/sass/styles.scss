@@ -71,7 +71,8 @@ margin-top: 20px;
 
 .home-inicio{
 
- padding-left: 5px;
+ padding-left: 75px;
+ padding-top: 11px;
 }
 
 .home-menu{
@@ -88,12 +89,13 @@ margin-top: 20px;
 
 }
 .home-contacto{
+  
   color: #fff;
   & i{
     font-size: 18px;
   }
 
-  padding-top: 18px;
+  padding-top: 26px;
 }
 .home-tel{
   margin-top: -5px;
@@ -702,8 +704,28 @@ padding-top: 63px;
 }
 
 .registro_juntar{
+  margin: 0 auto;
   padding-top: 95px;
+  width: 92%;
+  margin-bottom: 75px;
   @media (max-width:480px){
     padding-top: 130px;
   }
+  }
+
+  /*css para el boton de iniciar session
+  -------------------------------------*/
+  .contorno{
+    
+    
+  }
+  .btn-sesion{
+
+    height: 31px;
+    color: #fff;
+    background-color: $color-menu;
+    border-color: #fff;
+    &:hover{
+      background-color:rgb(108, 67, 196);
+         }
   }
