@@ -51,8 +51,20 @@
 
 					<div class="home-contacto col-lg-3" >
 					
-		                   
-						<!-- <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a> -->
+		               <form class=" " action="" method="POST">
+					   <div class="form-row">
+							<div class="col">
+							<input type="text" class="form-control">
+							</div>
+							<div class="col">
+							<input type="text" class="form-control">
+							</div>
+							<div class="col">
+							<input type="submit" class="btn btn-sesion" >
+							</div>
+						</div>
+					   </form>    
+						
                     </div>
 
 
