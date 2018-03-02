@@ -5,7 +5,7 @@
 // ============================================================================= -->
 <?php require_once"header.php"; ?>
 
-<div class="home_juntar">
+<div class="registro_juntar">
 
 <section>
 
