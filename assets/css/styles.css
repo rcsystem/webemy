@@ -58,7 +58,7 @@ body {
   padding-bottom: 18px;
   position: fixed;
   z-index: 100;
-  background-color: #513e7a; }
+  background-color: #3b71d4; }
   @media (max-width: 480px) {
     .home-menu {
       position: fixed;
@@ -109,7 +109,7 @@ body {
   .home-slider h1 {
     font-size: 33px;
     text-transform: uppercase;
-    color: #513e7a;
+    color: #3b71d4;
     font-weight: bold; }
   .home-slider .home-btn-mas {
     width: 180px;
@@ -129,7 +129,7 @@ body {
       .home-slider h1 {
         font-size: 11px;
         text-transform: uppercase;
-        color: #513e7a;
+        color: #3b71d4;
         font-weight: bold; }
       .home-slider .home-btn-mas {
         width: 60px;
@@ -223,7 +223,7 @@ body {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
-  background: #513e7a;
+  background: #3b71d4;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -539,8 +539,8 @@ body {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus,
 .nav-pills > li > a:hover {
-  background-color: #513e7a;
-  border-color: #513e7a;
+  background-color: #3b71d4;
+  border-color: #3b71d4;
   color: #ffffff; }
 
 .nav-pills > li > a {
@@ -619,7 +619,7 @@ body {
 .btn-sesion {
   height: 31px;
   color: #fff;
-  background-color: #513e7a;
+  background-color: #3b71d4;
   border-color: #fff; }
   .btn-sesion:hover {
     background-color: #6c43c4;
