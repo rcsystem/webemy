@@ -138,5 +138,18 @@ $(document).ready(function(){
   }
 });
 </script>
+<script>
+ function mostrar(id) {
+            if (id == "1") {
+                $("#usuarios").show();
+                $("#empresas").hide();
+                }
+
+            if (id == "2") {
+                $("#usuarios").hide();
+                $("#empresas").show();
+               }
+        }
+</script>
 </body>
 </html>
