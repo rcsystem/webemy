@@ -48,8 +48,11 @@ body {
     margin-top: 20px; }
 
 .home-inicio {
-  padding-left: 75px;
+  padding-left: -15px;
   padding-top: 11px; }
+  @media (max-width: 480px) {
+    .home-inicio {
+      text-align: center; } }
 
 .home-menu {
   padding-bottom: 21px;
@@ -577,23 +580,32 @@ body {
   padding-top: 63px; }
   @media (max-width: 480px) {
     .home_juntar {
-      padding-top: 130px; } }
+      padding-top: 305px; } }
 
 .registro_juntar {
   margin: 0 auto;
-  padding-top: 95px;
+  padding-top: 110px;
   width: 92%;
   margin-bottom: 75px; }
   @media (max-width: 480px) {
     .registro_juntar {
-      padding-top: 130px; } }
+      padding-top: 340px; } }
 
 /*css para el boton de iniciar session
   -------------------------------------*/
+.contorno {
+  width: 100%; }
+
 .btn-sesion {
   height: 31px;
   color: #fff;
   background-color: #513e7a;
   border-color: #fff; }
   .btn-sesion:hover {
-    background-color: #6c43c4; }
+    background-color: #6c43c4;
+    border-color: #6c43c4; }
+  @media (max-width: 481px) {
+    .btn-sesion {
+      width: 100%; }
+      .btn-sesion:hover {
+        border-color: #6c43c4; } }

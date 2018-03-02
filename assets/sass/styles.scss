@@ -71,8 +71,11 @@ margin-top: 20px;
 
 .home-inicio{
 
- padding-left: 75px;
+ padding-left: -15px;
  padding-top: 11px;
+ @media (max-width:480px) {
+   text-align: center;
+ }
 }
 
 .home-menu{
@@ -699,17 +702,17 @@ height: auto;
 .home_juntar{
 padding-top: 63px;
 @media (max-width:480px){
-  padding-top: 130px;
+  padding-top: 305px;
 }
 }
 
 .registro_juntar{
   margin: 0 auto;
-  padding-top: 95px;
+  padding-top: 110px;
   width: 92%;
   margin-bottom: 75px;
   @media (max-width:480px){
-    padding-top: 130px;
+    padding-top: 340px;
   }
   }
 
@@ -717,7 +720,7 @@ padding-top: 63px;
   -------------------------------------*/
   .contorno{
     
-    
+    width: 100%;
   }
   .btn-sesion{
 
@@ -727,5 +730,11 @@ padding-top: 63px;
     border-color: #fff;
     &:hover{
       background-color:rgb(108, 67, 196);
+      border-color:rgb(108, 67, 196)
          }
+    @media (max-width:481px){
+      width: 100%;
+      &:hover{border-color:rgb(108, 67, 196) ;}
+    }
   }
+  

@@ -49,26 +49,26 @@
 							
 					</div>
 
-					<div class="home-contacto col-lg-4" >
-					
+					<div class="home-contacto col-lg-5 col-xs-12" >
+					<div class="form-contacto">
 		               <form class=" " action="" method="POST">
 					   <div class="form-row">
-							<div class="col">
+							<div class="form-group col-xs-12 col-lg-4">
 							<input type="text" class="contorno" placeholder="E-mail"/>
 							</div>
-							<div class="col">
-							<input type="text" class=" " placeholder="Password"/>
+							<div class="form-group col-xs-12 col-lg-4">
+							<input type="text" class="contorno" placeholder="Password"/>
 							</div>
-							<div class="">
+							<div class="form-group col-xs-12 col-lg-4">
 							<input type="submit" class="btn btn-sesion" value="Entrar" >
 							</div>
 						</div>
 					   </form>    
-						
+					   </div>
                     </div>
 
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-1">
                     	<div class="home-enter">
 							<div class="home-inicio">
 							  <a href="registro.php" >Registrate</a>
