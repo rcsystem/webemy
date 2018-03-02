@@ -553,6 +553,19 @@ body {
     background-color: #513e7a;
     color: #fff; }
 
+/*css boton de registro
+----------------------------------------------*/
+.btn-reg {
+  color: #fff;
+  border-color: #513e7a;
+  background-color: #513e7a;
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  transition: .8s; }
+  .btn-reg:hover {
+    color: white;
+    background: #8259da; }
+
 /*  CSS PARA CARRUSEL DE EDECANES
 -------------------------------------*/
 .carrusel_edecan {
@@ -562,4 +575,10 @@ body {
   padding-top: 63px; }
   @media (max-width: 480px) {
     .home_juntar {
+      padding-top: 130px; } }
+
+.registro_juntar {
+  padding-top: 95px; }
+  @media (max-width: 480px) {
+    .registro_juntar {
       padding-top: 130px; } }
