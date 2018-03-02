@@ -1,3 +1,36 @@
+<?php
+session_start();
+require_once 'ConexionBD/dbconnect.php';
+$msg="";
+if (isset($_SESSION['userSession'])!="") {
+	header("Location:index.php");
+	exit;
+}
+
+if (isset($_POST['btn-login'])) {
+	
+	$correo = strip_tags($_POST['correo']);
+	$password = strip_tags($_POST['password']);
+	
+	$email = $DBcon->real_escape_string($correo);
+	$password = $DBcon->real_escape_string($password);
+	
+	$query = $DBcon->query("SELECT id_edecan, ede_email, ede_password FROM emy_edecanes WHERE ede_email='$email'");
+	$row=$query->fetch_array();
+	
+	$count = $query->num_rows; //
+	
+	if (password_verify($password, $row['ede_password']) && $count==1) {
+		$_SESSION['userSession'] = $row['user_id'];
+		header("Location: inicio_edecanes.php");
+	} else {
+		$msg = "<div class='alert alert-danger'>
+					<span class='glyphicon glyphicon-info-sign'></span> &nbsp; Error E-mail y/o Contraseña !
+				</div>";
+	}
+	$DBcon->close();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +50,6 @@
 		<link href="assets/css/animations.css" rel="stylesheet">
 <!-- Custom css --> 
 		<link href="assets/css/custom.css" rel="stylesheet">
-
-
 	<title>EMY EDECANES Y MODELOS, S.A. DE C.V.</title>
 </head>
 <body>
@@ -51,16 +82,16 @@
 
 					<div class="home-contacto col-lg-5 col-xs-12" >
 					<div class="form-contacto">
-		               <form class=" " action="" method="POST">
+		               <form action="index.php" method="POST">
 					   <div class="form-row">
 							<div class="form-group col-xs-12 col-lg-4">
-							<input type="text" class="contorno" placeholder="E-mail"/>
+							<input type="text" class="contorno" placeholder="E-mail" name="correo">
 							</div>
 							<div class="form-group col-xs-12 col-lg-4">
-							<input type="text" class="contorno" placeholder="Password"/>
+							<input type="text" class="contorno" placeholder="Password" name="password">
 							</div>
 							<div class="form-group col-xs-12 col-lg-4">
-							<input type="submit" class="btn btn-sesion" value="Entrar" >
+							<input type="submit" class="btn btn-sesion" value="Entrar" name="btn-login" >
 							</div>
 						</div>
 					   </form>    
@@ -94,17 +125,18 @@
 				</li>
                 <li>
 				<a href="index.php">Inicio</a>
+				<?php echo $msg;?>
 				
 				</li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quienes Somos <i class="fas fa-chevron-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quienes Somos <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-1">
                 	<li><a href="#info_emp">Misión</a></li>
                     <li><a href="#">Visión</a></li>
                 </ul>
                 </li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="fas fa-chevron-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-2">
 					<li><a href="#">A</a></li>
             		<li><a href="#">AA</a></li>
@@ -112,14 +144,14 @@
 				</ul>
 				</li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-3" role="button" aria-expanded="false" aria-controls="collapseExample">Animadores <i class="fas fa-chevron-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-3" role="button" aria-expanded="false" aria-controls="collapseExample">Animadores <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-3">
 					<li><a href="#">Mujer</a></li>
             		<li><a href="#">Hombre</a></li>
 				</ul>
                 </li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-4" role="button" aria-expanded="false" aria-controls="collapseExample">Modelos <i class="fas fa-chevron-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-4" role="button" aria-expanded="false" aria-controls="collapseExample">Modelos <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-4">
 					<li><a href="#">Fotografia fija</a></li>
             		<li><a href="#">Pasarela</a></li>

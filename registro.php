@@ -5,14 +5,15 @@
 // ============================================================================= -->
 
 <?php
-session_start();
+
 if (isset($_SESSION['userSession'])!="") {
-    header("Location:.php");
+    header("Location:index.php");
 }
 require_once 'ConexionBD/dbconnect.php';
 $msg =""; 
 
     if(isset($_POST['btn-registro_1'])) {
+        session_start();
         $msg ="";
         $nombre = $_POST["nombre_edecan"];
         $apellido = $_POST["ape_edecan"];
@@ -56,6 +57,7 @@ $query = "INSERT INTO emy_edecanes(ede_nombre, ede_apellido, ede_email, ede_pass
 
 
 if(isset($_POST['btn-registro_2'])) {
+    session_start();
     $nom_empresa = $_POST["nom_empresa"];
     $nom_completo = $_POST["nom_completo"];
     $giro = $_POST["giro"];
@@ -65,7 +67,6 @@ if(isset($_POST['btn-registro_2'])) {
     $telefono = $_POST["telefono"];
     $ext = $_POST["ext"];
     $celular = $_POST["celular"];
-    $estatus = $_POST["estatus"];
     $estado = $_POST["estado"];
     $password = $_POST["password"];
     $contrasena_incriptada = password_hash($password, PASSWORD_DEFAULT);
@@ -75,8 +76,8 @@ $count=$sql1->num_rows;
 
 if ($count==0) {
     
-$query = "INSERT INTO emy_empresas(nombre_emp, nombre_contacto, dir_emp, email_emp, password_emp, tel_local, tel_ext, tel_movil, estado_emp, sucursal_emp, status_emp, giro_emp) 
-VALUES('$nom_empresa', '$nom_completo','$direccion','$correo','$contrasena_incriptada','$telefono','$ext','$celular','$estado','$sucursal',$estatus, '$giro')";
+$query = "INSERT INTO emy_empresas(nombre_emp, nombre_contacto, dir_emp, email_emp, password_emp, tel_local, tel_ext, tel_movil, estado_emp, sucursal_emp, giro_emp) 
+VALUES('$nom_empresa', '$nom_completo','$direccion','$correo','$contrasena_incriptada','$telefono','$ext','$celular','$estado','$sucursal', '$giro')";
 
 
     if ($DBcon->query($query)) {
@@ -238,7 +239,7 @@ $DBcon->close();
             </div>
             <div class="col-lg-6">
                 <div class="form-group">
-                    <input type="textr" class="form-control" name="nom_completo" id="tel_edecan" placeholder="Nombre del contacto Completo"/>
+                    <input type="textr" class="form-control" name="nom_completo" id="tel_edecan" placeholder="Nombre"/>
                 </div>
             </div>
         </div>
@@ -260,14 +261,9 @@ $DBcon->close();
 
      <div class="col-lg-12">    
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="form-group">
                     <input type="text" class="form-control" name="direccion" id="tel_edecan" placeholder="Dirección"/>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="form-group">
-                    <input type="email" class="form-control" name="correo" id="tel_edecan" placeholder="Correo"/>
                 </div>
             </div>
         </div>
@@ -280,12 +276,12 @@ $DBcon->close();
                     <input type="number" class="form-control" name="telefono" id="tel_edecan" placeholder="Telefono"/>
                 </div>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-3">
                 <div class="form-group">
                     <input type="number" class="form-control" name="ext" id="tel_edecan" placeholder="Ext"/>
                 </div>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-4">
                 <div class="form-group">
                     <input type="number" class="form-control" name="celular" id="tel_edecan" placeholder="Celular"/>
                 </div>
@@ -293,18 +289,21 @@ $DBcon->close();
         </div>
     </div>
 
+    
+
     <div class="col-lg-12">
         <div class="row">
-            <div class="col-lg-4">
-                <div class="form-group">
-                    <input type="text" class="form-control" name="estatus" id="tel_edecan" placeholder="Estatus"/>
-                </div>
-            </div>
-            <div class="col-lg-4">
+        <div class="col-lg-4">
                 <div class="form-group">
                     <input type="text" class="form-control" name="estado" id="tel_edecan" placeholder="Estado"/>
                 </div>
             </div>
+            <div class="col-lg-4">
+                <div class="form-group">
+                     <input type="email" class="form-control" name="correo" id="tel_edecan" placeholder="Correo"/>
+                </div>
+            </div>
+
             <div class="col-lg-4">
                 <div class="form-group">
                     <input type="password" class="form-control" name="password" id="tel_edecan" placeholder="Password"/>
