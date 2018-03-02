@@ -55,7 +55,7 @@ body {
       text-align: center; } }
 
 .home-menu {
-  padding-bottom: 21px;
+  padding-bottom: 18px;
   position: fixed;
   z-index: 100;
   background-color: #513e7a; }
@@ -248,7 +248,7 @@ body {
 .sidebar-nav {
   position: absolute;
   top: 0;
-  width: 250px;
+  width: 200px;
   margin: 0;
   padding: 0;
   list-style: none; }
