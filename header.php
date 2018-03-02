@@ -97,14 +97,14 @@
 				
 				</li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quienes Somos <i class="fas fa-chevron-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quienes Somos <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-1">
                 	<li><a href="#info_emp">Misión</a></li>
                     <li><a href="#">Visión</a></li>
                 </ul>
                 </li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="fas fa-chevron-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-2">
 					<li><a href="#">A</a></li>
             		<li><a href="#">AA</a></li>
@@ -112,14 +112,14 @@
 				</ul>
 				</li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-3" role="button" aria-expanded="false" aria-controls="collapseExample">Animadores <i class="fas fa-chevron-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-3" role="button" aria-expanded="false" aria-controls="collapseExample">Animadores <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-3">
 					<li><a href="#">Mujer</a></li>
             		<li><a href="#">Hombre</a></li>
 				</ul>
                 </li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-4" role="button" aria-expanded="false" aria-controls="collapseExample">Modelos <i class="fas fa-chevron-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-4" role="button" aria-expanded="false" aria-controls="collapseExample">Modelos <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-4">
 					<li><a href="#">Fotografia fija</a></li>
             		<li><a href="#">Pasarela</a></li>

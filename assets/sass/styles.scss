@@ -9,7 +9,7 @@ $pie-noticia:'Raleway-Regular';
 $color-titulo:rgb(81, 62, 122);
 $espacio: 110px;
 
-$color-menu:rgb(59, 113, 212);
+$color-menu:rgb(81, 62, 122);
 
 .text-blanco{
   color:#fff;
@@ -39,9 +39,9 @@ body{
 .home-logo{
 
   & img{
-	width: 60px;
-  height: 58px;
-  margin-top: 5px;
+	width: 62px;
+  height: 62px;
+  margin-top: 10px;
   }
   @media (max-width:480px) {
     padding:0 auto;
@@ -79,7 +79,7 @@ margin-top: 20px;
 }
 
 .home-menu{
-  padding-bottom: 18px;
+  padding-bottom: 9px;
  position: fixed;
  z-index: 100;
   background-color: $color-menu ;
@@ -272,7 +272,7 @@ font-family: $titulo-noticia;
 }
 
 #wrapper.toggled {
-  padding-left: 250px;
+  padding-left: 210px;
 }
 
 #sidebar-wrapper {
@@ -295,7 +295,7 @@ font-family: $titulo-noticia;
 }
 
 #wrapper.toggled #sidebar-wrapper {
-  width: 250px;
+  width: 210px;
 }
 
 #page-content-wrapper {
@@ -358,7 +358,7 @@ font-family: $titulo-noticia;
   background: none;
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
   #wrapper {
     padding-left: 0;
   }
@@ -721,7 +721,7 @@ height: auto;
   margin-bottom: 65px;
 }
 .home_juntar{
-padding-top: 63px;
+padding-top: 83px;
 @media (max-width:480px){
   padding-top: 305px;
 }
@@ -732,7 +732,7 @@ padding-top: 63px;
   padding-top: 110px;
   width: 92%;
   margin-bottom: 75px;
-  @media (max-width:480px){
+  @media only screen and (max-width: 999px) and (min-width: 480px){
     padding-top: 340px;
   }
   }
