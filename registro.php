@@ -178,4 +178,6 @@ $query = "INSERT INTO emy_edecanes(ede_nombre, ede_apellido, ede_email, ede_pass
 
 </section>
 
+<div class="spacer__sm"></div>
+
 <?php require_once"footer.php"; ?>

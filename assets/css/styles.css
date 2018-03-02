@@ -104,8 +104,8 @@ body {
 .home-slider {
   position: absolute;
   width: 100%;
-  margin-top: -520px;
-  margin-left: 680px; }
+  margin-top: -480px;
+  margin-left: 610px; }
   .home-slider h1 {
     font-size: 33px;
     text-transform: uppercase;
@@ -122,6 +122,26 @@ body {
       -webkit-transition: .8s;
       -o-transition: .8s;
       transition: .8s; }
+  @media (max-width: 480px) {
+    .home-slider {
+      margin-top: -110px;
+      margin-left: 180px; }
+      .home-slider h1 {
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #513e7a;
+        font-weight: bold; }
+      .home-slider .home-btn-mas {
+        width: 60px;
+        height: 45px;
+        color: #513e7a;
+        border-color: #513e7a; }
+        .home-slider .home-btn-mas:hover {
+          color: white;
+          background: #513e7a;
+          -webkit-transition: .8s;
+          -o-transition: .8s;
+          transition: .8s; } }
 
 .btn-contacto {
   width: 100%;
