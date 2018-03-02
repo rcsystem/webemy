@@ -45,18 +45,30 @@
 						</div>
 					</div>
 
-					<div class="col-lg-5" >
+					<div class="col-lg-4" >
 							
 					</div>
 
-					<div class="home-contacto col-lg-3" >
-					
-		                   
-						<!-- <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a> -->
+					<div class="home-contacto col-lg-5 col-xs-12" >
+					<div class="form-contacto">
+		               <form class=" " action="" method="POST">
+					   <div class="form-row">
+							<div class="form-group col-xs-12 col-lg-4">
+							<input type="text" class="contorno" placeholder="E-mail"/>
+							</div>
+							<div class="form-group col-xs-12 col-lg-4">
+							<input type="text" class="contorno" placeholder="Password"/>
+							</div>
+							<div class="form-group col-xs-12 col-lg-4">
+							<input type="submit" class="btn btn-sesion" value="Entrar" >
+							</div>
+						</div>
+					   </form>    
+					   </div>
                     </div>
 
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-1">
                     	<div class="home-enter">
 							<div class="home-inicio">
 							  <a href="registro.php" >Registrate</a>

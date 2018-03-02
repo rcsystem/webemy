@@ -71,7 +71,11 @@ margin-top: 20px;
 
 .home-inicio{
 
- padding-left: 5px;
+ padding-left: -15px;
+ padding-top: 11px;
+ @media (max-width:480px) {
+   text-align: center;
+ }
 }
 
 .home-menu{
@@ -88,10 +92,13 @@ margin-top: 20px;
 
 }
 .home-contacto{
+  
   color: #fff;
   & i{
     font-size: 18px;
   }
+
+  padding-top: 26px;
 }
 .home-tel{
   margin-top: -5px;
@@ -695,13 +702,39 @@ height: auto;
 .home_juntar{
 padding-top: 63px;
 @media (max-width:480px){
-  padding-top: 130px;
+  padding-top: 305px;
 }
 }
 
 .registro_juntar{
-  padding-top: 95px;
+  margin: 0 auto;
+  padding-top: 110px;
+  width: 92%;
+  margin-bottom: 75px;
   @media (max-width:480px){
-    padding-top: 130px;
+    padding-top: 340px;
   }
   }
+
+  /*css para el boton de iniciar session
+  -------------------------------------*/
+  .contorno{
+    
+    width: 100%;
+  }
+  .btn-sesion{
+
+    height: 31px;
+    color: #fff;
+    background-color: $color-menu;
+    border-color: #fff;
+    &:hover{
+      background-color:rgb(108, 67, 196);
+      border-color:rgb(108, 67, 196)
+         }
+    @media (max-width:481px){
+      width: 100%;
+      &:hover{border-color:rgb(108, 67, 196) ;}
+    }
+  }
+  
