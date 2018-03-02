@@ -328,4 +328,6 @@ $DBcon->close();
 
 </section>
 
+<div class="spacer__sm"></div>
+
 <?php require_once"footer.php"; ?>

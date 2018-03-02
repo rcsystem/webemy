@@ -138,13 +138,14 @@ height: 200px;}
 .home-slider{
   position: absolute;
   width: 100%;
-  margin-top:-520px;
-  margin-left: 680px;
-  
+  margin-top:-480px;
+  margin-left: 610px;
+
+
   & h1{
     font-size: 33px;
     text-transform: uppercase;
-  color: rgb(81, 62, 122);
+  color: $color-menu;
   font-weight: bold;
   }
 
@@ -159,7 +160,27 @@ height: 200px;}
     transition: .8s;
     }
   }
-
+  @media (max-width:480px){
+    margin-top:-110px;
+    margin-left: 180px; 
+    & h1{
+      font-size: 11px;
+      text-transform: uppercase;
+    color: $color-menu;
+    font-weight: bold;
+    }
+    & .home-btn-mas{
+      width: 60px;
+      height: 45px;
+      color: rgb(81, 62, 122);
+      border-color: rgb(81, 62, 122);
+      &:hover{
+        color: rgb(255, 255, 255);
+      background: rgb(81, 62, 122);
+      transition: .8s;
+      }
+    }
+  }
 
 }
 
