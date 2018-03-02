@@ -21,11 +21,11 @@ if (isset($_POST['btn-login'])) {
 	$count = $query->num_rows; //
 	
 	if (password_verify($password, $row['ede_password']) && $count==1) {
-		$_SESSION['userSession'] = $row['user_id'];
+		$_SESSION['userSession'] = $row['id_edecan'];
 		header("Location: inicio_edecanes.php");
 	} else {
 		$msg = "<div class='alert alert-danger'>
-					<span class='glyphicon glyphicon-info-sign'></span> &nbsp; Error E-mail y/o Contraseña !
+					<span class='glyphicon glyphicon-info-sign'></span> &nbsp; Error!
 				</div>";
 	}
 	$DBcon->close();
