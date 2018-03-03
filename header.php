@@ -140,11 +140,8 @@ if (isset($_POST['btn-login'])) {
 				
 				</li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quienes Somos <i class="icon-angle-down" style="font-size:12px;"></i></a>
-				<ul class="collapse list-unstyled" id="colla-1">
-                	<li><a href="#info_emp">Misión</a></li>
-                    <li><a href="#">Visión</a></li>
-                </ul>
+					
+				<a href="" alt="">Quienes Somos</a>
                 </li>
                 <li>
 				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="icon-angle-down" style="font-size:12px;"></i></a>
