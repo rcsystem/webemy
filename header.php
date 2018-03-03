@@ -23,10 +23,21 @@ if (isset($_POST['btn-login'])) {
 	if (password_verify($password, $row['ede_password']) && $count==1) {
 		$_SESSION['userSession'] = $row['id_edecan'];
 		header("Location: inicio_edecanes.php");
-	} else {
-		$msg = "<div class='alert alert-danger'>
-					<span class='glyphicon glyphicon-info-sign'></span> &nbsp; Error!
-				</div>";
+	} else {//Mensaje de errror//
+		
+		$query = $DBcon->query("SELECT id_empresa, email_emp, password_emp FROM emy_empresas WHERE email_emp='$email'");
+		$row=$query->fetch_array();
+		
+		$count = $query->num_rows; //
+		
+		if (password_verify($password, $row['password_emp']) && $count==1) {
+			$_SESSION['userSession'] = $row['id_empresa'];
+			header("Location: inicio_empresa.php");
+		} else {
+			$msg = "<div class='alert alert-danger'>
+						<span class='glyphicon glyphicon-info-sign'></span> &nbsp; Error!
+					</div>";
+		}
 	}
 	$DBcon->close();
 }
@@ -88,7 +99,7 @@ if (isset($_POST['btn-login'])) {
 							<input type="text" class="contorno" placeholder="E-mail" name="correo">
 							</div>
 							<div class="form-group col-xs-12 col-lg-4">
-							<input type="text" class="contorno" placeholder="Password" name="password">
+							<input type="password" class="contorno" placeholder="Password" name="password">
 							</div>
 							<div class="form-group col-xs-12 col-lg-4">
 							<input type="submit" class="btn btn-sesion" value="Entrar" name="btn-login" >

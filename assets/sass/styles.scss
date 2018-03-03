@@ -8,9 +8,8 @@ $titulo-noticia:'Raleway-Bold';
 $pie-noticia:'Raleway-Regular';
 $color-titulo:rgb(81, 62, 122);
 $espacio: 110px;
-$color-menu:rgb(58, 102, 184);
-$color-menu:rgb(81, 62, 122);
 
+$color-menu:rgb(81, 62, 122);
 
 .text-blanco{
   color:#fff;
@@ -277,7 +276,7 @@ font-family: $titulo-noticia;
 }
 
 #sidebar-wrapper {
-  margin-top: 90px;
+  margin-top: 63px;
   z-index: 90;
   position: fixed;
   left: 250px;
