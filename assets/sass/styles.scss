@@ -99,6 +99,13 @@ margin-top: 20px;
   }
 
   padding-top: 26px;
+
+@media (max-width:480px){
+  display:none;
+  
+}
+
+
 }
 .home-tel{
   margin-top: -5px;
@@ -723,7 +730,7 @@ height: auto;
 .home_juntar{
 padding-top: 83px;
 @media (max-width:480px){
-  padding-top: 305px;
+  padding-top: 137px;
 }
 }
 
@@ -758,4 +765,10 @@ padding-top: 83px;
       &:hover{border-color:rgb(108, 67, 196) ;}
     }
   }
+
+.form-contacto{
   
+@media (max-width:480px){
+  display: none;
+  }
+}

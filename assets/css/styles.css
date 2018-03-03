@@ -70,6 +70,9 @@ body {
   padding-top: 26px; }
   .home-contacto i {
     font-size: 18px; }
+  @media (max-width: 480px) {
+    .home-contacto {
+      display: none; } }
 
 .home-tel {
   margin-top: -5px;
@@ -600,7 +603,7 @@ body {
   padding-top: 83px; }
   @media (max-width: 480px) {
     .home_juntar {
-      padding-top: 305px; } }
+      padding-top: 137px; } }
 
 .registro_juntar {
   margin: 0 auto;
@@ -629,3 +632,7 @@ body {
       width: 100%; }
       .btn-sesion:hover {
         border-color: #6c43c4; } }
+
+@media (max-width: 480px) {
+  .form-contacto {
+    display: none; } }

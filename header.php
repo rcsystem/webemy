@@ -1,47 +1,3 @@
-<?php
-session_start();
-require_once 'ConexionBD/dbconnect.php';
-$msg="";
-if (isset($_SESSION['userSession'])!="") {
-	header("Location:index.php");
-	exit;
-}
-
-if (isset($_POST['btn-login'])) {
-	
-	$correo = strip_tags($_POST['correo']);
-	$password = strip_tags($_POST['password']);
-	
-	$email = $DBcon->real_escape_string($correo);
-	$password = $DBcon->real_escape_string($password);
-	
-	$query = $DBcon->query("SELECT id_edecan, ede_email, ede_password FROM emy_edecanes WHERE ede_email='$email'");
-	$row=$query->fetch_array();
-	
-	$count = $query->num_rows; //
-	
-	if (password_verify($password, $row['ede_password']) && $count==1) {
-		$_SESSION['userSession'] = $row['id_edecan'];
-		header("Location: inicio_edecanes.php");
-	} else {//Mensaje de errror//
-		
-		$query = $DBcon->query("SELECT id_empresa, email_emp, password_emp FROM emy_empresas WHERE email_emp='$email'");
-		$row=$query->fetch_array();
-		
-		$count = $query->num_rows; //
-		
-		if (password_verify($password, $row['password_emp']) && $count==1) {
-			$_SESSION['userSession'] = $row['id_empresa'];
-			header("Location: inicio_empresa.php");
-		} else {
-			$msg = "<div class='alert alert-danger'>
-						<span class='glyphicon glyphicon-info-sign'></span> &nbsp;Fatal. Inicio!
-					</div>";
-		}
-	}
-	$DBcon->close();
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,10 +13,14 @@ if (isset($_POST['btn-login'])) {
 
 	<link href="https://file.myfontastic.com/2SQuVNdrs635VjAgGpanbP/icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="shortcut icon" href="icon/logo1_2_.ico" type="image/x-icon">
+	<link rel="icon" href="icon/logo1_2_.ico" type="image/x-icon">
 		<!-- Plugins -->
 		<link href="assets/css/animations.css" rel="stylesheet">
 <!-- Custom css --> 
 		<link href="assets/css/custom.css" rel="stylesheet">
+
+
 	<title>EMY EDECANES Y MODELOS, S.A. DE C.V.</title>
 </head>
 <body>
@@ -93,16 +53,16 @@ if (isset($_POST['btn-login'])) {
 
 					<div class="home-contacto col-lg-5 col-xs-12" >
 					<div class="form-contacto">
-		               <form action="index.php" method="POST">
+		               <form class=" " action="" method="POST">
 					   <div class="form-row">
 							<div class="form-group col-xs-12 col-lg-4">
-							<input type="text" class="contorno" placeholder="E-mail" name="correo">
+							<input type="text" class="contorno" placeholder="E-mail"/>
 							</div>
 							<div class="form-group col-xs-12 col-lg-4">
-							<input type="password" class="contorno" placeholder="Password" name="password">
+							<input type="text" class="contorno" placeholder="Password"/>
 							</div>
 							<div class="form-group col-xs-12 col-lg-4">
-							<input type="submit" class="btn btn-sesion" value="Entrar" name="btn-login" >
+							<input type="submit" class="btn btn-sesion" value="Entrar" >
 							</div>
 						</div>
 					   </form>    
@@ -113,7 +73,7 @@ if (isset($_POST['btn-login'])) {
                     <div class="col-lg-1">
                     	<div class="home-enter">
 							<div class="home-inicio">
-							  <a href="registro.php" >Registrate</a>
+							  <a href="registro.php" >Regístrate</a>
 							</div>
 						</div>
 					</div>
@@ -135,11 +95,15 @@ if (isset($_POST['btn-login'])) {
 								
 				</li>
                 <li>
-					<a href="index.php">Inicio</a>
+				<a href="index.php">Inicio</a>
+				
 				</li>
                 <li>
-					
-				<a href="somos.php" alt="">Quienes Somos</a>
+				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quiénes Somos <i class="icon-angle-down" style="font-size:12px;"></i></a>
+				<ul class="collapse list-unstyled" id="colla-1">
+                	<li><a href="#info_emp">Misión</a></li>
+                    <li><a href="#">Visión</a></li>
+                </ul>
                 </li>
                 <li>
 				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="icon-angle-down" style="font-size:12px;"></i></a>
@@ -164,14 +128,11 @@ if (isset($_POST['btn-login'])) {
 				</ul>
                 </li>
                 <li>
-                    <a href="#">Únete a nosostros</a>
+                    <a href="#">Únete a nosotros</a>
                 </li>
                
 			    <li>
                     <a href="contacto.php">Contacto</a>
-				</li>
-				<li>
-				<?php echo $msg;?>
-				</li>
+                </li>
             </ul>
         </div>
