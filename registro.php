@@ -23,7 +23,7 @@ $msg ="";
         $celular = $_POST["movil_edecan"];
         $direccion = $_POST["dir_edecan"];
         $genero = $_POST["genero_edecan"];
-        $contrasena_incriptada = password_hash($password, PASSWORD_DEFAULT);
+        $contrasena_incriptada = md5($password, PASSWORD_DEFAULT);
 
     $sql1 = $DBcon->query("SELECT ede_email FROM emy_edecanes WHERE ede_email='$correo'");
     $count=$sql1->num_rows;
@@ -69,7 +69,7 @@ if(isset($_POST['btn-registro_2'])) {
     $celular = $_POST["celular"];
     $estado = $_POST["estado"];
     $password = $_POST["password"];
-    $contrasena_incriptada = password_hash($password, PASSWORD_DEFAULT);
+    $contrasena_incriptada = md5($password, PASSWORD_DEFAULT);
 
 $sql1 = $DBcon->query("SELECT email_emp FROM emy_empresas WHERE email_emp='$correo'");
 $count=$sql1->num_rows;
