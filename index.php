@@ -12,7 +12,7 @@
 							<div class="home-slider">
 						
 								<h1>contamos con un extenso </h1>
-								<h1>catálgo de modelos y edecanes</h1>
+								<h1>catálogo de modelos y edecanes</h1>
 								<h1>a, aa, aaa.</h1>  
 								<div class="form-row text-center">
 								<div class="col-12">
@@ -31,7 +31,7 @@
 							<div class="home-slider2">
 							
 							<h1>contamos con un extenso </h1>
-							<h1>catálgo de modelos y edecanes</h1>
+							<h1>catálogo de modelos y edecanes</h1>
 							<h1>a, aa, aaa.</h1>  
 							<div class="form-row text-center">
 							<div class="col-12">
@@ -49,7 +49,7 @@
 						<div class="home-slider">
 						
 								<h1>contamos con un extenso </h1>
-								<h1>catálgo de modelos y edecanes</h1>
+								<h1>catálogo de modelos y edecanes</h1>
 								<h1>a, aa, aaa.</h1>  
 								<div class="form-row text-center">
 								<div class="col-12">
@@ -87,8 +87,8 @@
 
           <div  class="home-titulos info-imp-item col-lg-6">
 			<h2>EMY EDECANES Y MODELOS, S.A. DE C.V. </h2>
-            <p>Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos sociales, culturales y negocios de cualquier magnitud a través del uso de servicios de comunicación, logrando con ello una excelente satisfacción de nuestros clientes</p>
-               <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> Contactanos</b></a>
+            <p>Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos sociales, culturales y de negocios, a cualquier magnitud, con el uso de los más avanzados servicios de comunicación; logrando con ello la total satisfacción de nuestros clientes.</p>
+               <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> contáctanos</b></a>
         </div>
 
       </div>
@@ -110,10 +110,10 @@
                             <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 								<a class="overlay" data-toggle="modal" data-target="#project-2">
 									<i class="fa fa-search-plus"></i>
-										<span>Maria Rayas Muñoz</span>
+										<span>EMY EDECANES Y MODELOS</span>
 								</a>
 						</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Edecan A</a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 					</div>
         		</div>
 
@@ -124,10 +124,10 @@
                             <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 								<a class="overlay" data-toggle="modal" data-target="#project-2">
 									<i class="fa fa-search-plus"></i>
-									<span>Desarrollo de App</span>
+									<span>EMY EDECANES Y MODELOS</span>
 								</a>
 						</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 					</div>
    				</div>
 
@@ -138,10 +138,10 @@
                             <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 								<a class="overlay" data-toggle="modal" data-target="#project-2">
 									<i class="fa fa-search-plus"></i>
-									<span>Desarrollo de App</span>
+									<span>EMY EDECANES Y MODELOS</span>
 								</a>
 						</div>
-							<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+							<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 					</div>
     			</div>
 			</div>
@@ -156,10 +156,10 @@
                         <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 							<a class="overlay" data-toggle="modal" data-target="#project-2">
 								<i class="fa fa-search-plus"></i>
-								<span>Desarrollo de App</span>
+								<span>EMY EDECANES Y MODELOS</span>
 							</a>
 					</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 				</div>
         	</div>
 
@@ -169,10 +169,10 @@
                          <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 							<a class="overlay" data-toggle="modal" data-target="#project-2">
 								<i class="fa fa-search-plus"></i>
-								<span>Desarrollo de App</span>
+								<span>EMY EDECANES Y MODELOS</span>
 							</a>
 					</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 				</div>
     		</div>
 
@@ -182,10 +182,10 @@
                         <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 							<a class="overlay" data-toggle="modal" data-target="#project-2">
 								<i class="fa fa-search-plus"></i>
-								<span>Desarrollo de App</span>
+								<span>EMY EDECANES Y MODELOS</span>
 							</a>
 					</div>
-					<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+					<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 				</div>
     </div>
 </div>
@@ -198,10 +198,10 @@
                                     <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
-											<span>Desarrollo de App</span>
+											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 								</div>
         </div>
         <div class="col-md-4">
@@ -210,10 +210,10 @@
                                     <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
-											<span>Desarrollo de App</span>
+											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 								</div>
     </div>
         <div class="col-md-4">
@@ -222,10 +222,10 @@
                                     <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
-											<span>Desarrollo de App</span>
+											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 								</div>
     </div>
 </div>
@@ -239,10 +239,10 @@
                                     <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
-											<span>Desarrollo de App</span>
+											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 								</div>
         </div>
         <div class="col-md-4">
@@ -251,10 +251,10 @@
                                     <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
-											<span>Desarrollo de App</span>
+											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 								</div>
     </div>
         <div class="col-md-4">
@@ -263,10 +263,10 @@
                                     <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
-											<span>Desarrollo de App</span>
+											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Project Title</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
 								</div>
     </div>
 </div>
@@ -306,7 +306,7 @@
 			
 			<div class="info">
 				
-				<h3>Edecan A</h3>
+				<h3>Edecán A</h3>
 
 				
     		
@@ -318,7 +318,7 @@
             <img src="assets/images/caras01.jpg" class=" rounded-circle img-fluid" />
 			<div class="info">
 				
-				<h3>Edecan AA</h3>
+				<h3>Edecán AA</h3>
 
 				
     		
@@ -329,7 +329,7 @@
             <img src="assets/images/caras03.jpg" class=" rounded-circle img-fluid" />
 			<div class="info">
 				
-				<h3>Edecan AAA</h3>
+				<h3>Edecán AAA</h3>
 
 				
     		
@@ -344,25 +344,25 @@
       <div class="row">
          
           <div class="home-titulos info-imp-item col-lg-6">
-			<h2>¡Unete a nuestro Equipo!...</h2>
+			<h2>¡Únete a nuestro Equipo!...</h2>
            <!--  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, pariatur odit. Assumenda alias odio,
                dolore placeat quas velit totam eaque ullam, necessitatibus dolores voluptas ad ea consectetur, nulla ut vero.
                .</p> -->
 			   <ul>
 			   <li>¿ERES EXTROVERTIDA?</li>
 			   <br>
-			   <li>¿DINAMICA?</li>
+			   <li>¿DINÁMICA?</li>
 			   <br>
 			   <li>¿SOCIABLE?</li>
 			   <br>
 			   <li>¿ALEGRE? </li>
 			   <br>
-			   <li>Y ¿CON HABILIDADES DE ANIMACION? </li>
+			   <li>Y ¿CON HABILIDADES DE ANIMACIÓN? </li>
 			  
 			   </ul>
 			   <p>¡¡TE ESTAMOS BUSCANDO!!</p>
 			   <div class=" mx-auto text-center">
-               <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> Contactanos</b></a>
+               <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> contáctanos</b></a>
 			   </div>
         </div>
 

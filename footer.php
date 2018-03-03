@@ -7,8 +7,9 @@
 				<div class="home-social"></div>
 				 <h5 class="text-aqua">Horarios </h5>
 
-		            <p>Lunes a Domingo 9:00 am a 6:00pm</p>
-		            <p>Llámanos +55 24 60 23 84</p>
+		            <p>Lunes a Viernes 9:00 am a 6:00pm</p>
+		            <p><b>Tel.:</b> (55) 58 92 69 77</p>
+		            <p><b>E-mail:</b> ventas@emy.mx</p>
 					<div class="formulario"><a href="#" class="btn btn-contactos"><i class="icon-android-create"></i> Escríbenos</a></div>
 						<br>
 		            <ul class="footer_social">
@@ -30,7 +31,7 @@
 			<hr>
 			
 			<div class="col-lg-12 text-center">
-				<p> <b> © 2018 EMY Agencia. </b></p>
+				<p> <b> © 2018 EMY EDECANES Y MODELOS, S.A. DE C.V. </b></p>
 			</div>
 			
 		</footer>

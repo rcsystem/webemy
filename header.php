@@ -13,6 +13,8 @@
 
 	<link href="https://file.myfontastic.com/2SQuVNdrs635VjAgGpanbP/icons.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="shortcut icon" href="icon/logo1_2_.ico" type="image/x-icon">
+	<link rel="icon" href="icon/logo1_2_.ico" type="image/x-icon">
 		<!-- Plugins -->
 		<link href="assets/css/animations.css" rel="stylesheet">
 <!-- Custom css --> 
@@ -71,7 +73,7 @@
                     <div class="col-lg-1">
                     	<div class="home-enter">
 							<div class="home-inicio">
-							  <a href="registro.php" >Registrate</a>
+							  <a href="registro.php" >Regístrate</a>
 							</div>
 						</div>
 					</div>
@@ -97,7 +99,7 @@
 				
 				</li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quienes Somos <i class="icon-angle-down" style="font-size:12px;"></i></a>
+				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quiénes Somos <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-1">
                 	<li><a href="#info_emp">Misión</a></li>
                     <li><a href="#">Visión</a></li>
@@ -126,7 +128,7 @@
 				</ul>
                 </li>
                 <li>
-                    <a href="#">Únete a nosostros</a>
+                    <a href="#">Únete a nosotros</a>
                 </li>
                
 			    <li>
