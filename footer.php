@@ -81,7 +81,14 @@
     });
     </script>-->
 <script>
-  
+  $(window).resize(function() {
+  if ($('html').width() <= 489) {
+
+      $( "#wrapper" ).removeClass( "toggled" );
+
+  }
+});
+
   $("#menu-toggle").click( function() {
     var clase = $("#wrapper").attr("class");
     if(clase == "toggled") {
