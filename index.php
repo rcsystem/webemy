@@ -10,7 +10,6 @@
 					<img class=" img-fluid" src="assets/images/home02.png" alt="First slide">
 						<div class="col-lg-5 ">
 							<div class="home-slider">
-						
 								<h1>contamos con un extenso </h1>
 								<h1>catálgo de modelos y edecanes</h1>
 								<h1>a, aa, aaa.</h1>  

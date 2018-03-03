@@ -35,7 +35,7 @@ if (isset($_POST['btn-login'])) {
 			header("Location: inicio_empresa.php");
 		} else {
 			$msg = "<div class='alert alert-danger'>
-						<span class='glyphicon glyphicon-info-sign'></span> &nbsp; Error!
+						<span class='glyphicon glyphicon-info-sign'></span> &nbsp;Fatal. Inicio!
 					</div>";
 		}
 	}
@@ -135,13 +135,11 @@ if (isset($_POST['btn-login'])) {
 								
 				</li>
                 <li>
-				<a href="index.php">Inicio</a>
-				<?php echo $msg;?>
-				
+					<a href="index.php">Inicio</a>
 				</li>
                 <li>
 					
-				<a href="" alt="">Quienes Somos</a>
+				<a href="somos.php" alt="">Quienes Somos</a>
                 </li>
                 <li>
 				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="icon-angle-down" style="font-size:12px;"></i></a>
@@ -171,6 +169,9 @@ if (isset($_POST['btn-login'])) {
                
 			    <li>
                     <a href="contacto.php">Contacto</a>
-                </li>
+				</li>
+				<li>
+				<?php echo $msg;?>
+				</li>
             </ul>
         </div>
