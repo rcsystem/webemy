@@ -99,11 +99,7 @@
 				
 				</li>
                 <li>
-				<a  data-toggle="collapse" href="#colla-1" role="button" aria-expanded="false" aria-controls="collapseExample">Quiénes Somos <i class="icon-angle-down" style="font-size:12px;"></i></a>
-				<ul class="collapse list-unstyled" id="colla-1">
-                	<li><a href="#info_emp">Misión</a></li>
-                    <li><a href="#">Visión</a></li>
-                </ul>
+				<a href="somos.php">Quiénes Somos</a>
                 </li>
                 <li>
 				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="icon-angle-down" style="font-size:12px;"></i></a>
