@@ -92,15 +92,11 @@ if (isset($_POST['btn-login'])) {
 					</div>
 
 					<div class="home-contacto col-lg-5 col-xs-12" >
-<<<<<<< HEAD
+
 					<!--Formulario de registro
 						<div class="form-contacto">
 		               <form class=" " action="" method="POST">
-=======
-					<div class="form-contacto">
-		               <form action="index.php" method="POST">
->>>>>>> 55949d0b5e6908518675732ee7d6b2eeb0309db7
-					   <div class="form-row">
+						    <div class="form-row">
 							<div class="form-group col-xs-12 col-lg-4">
 							<input type="text" class="contorno" placeholder="E-mail" name="correo">
 							</div>
