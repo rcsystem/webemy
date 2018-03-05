@@ -52,7 +52,8 @@
 					</div>
 
 					<div class="home-contacto col-lg-5 col-xs-12" >
-					<div class="form-contacto">
+					<!--Formulario de registro
+						<div class="form-contacto">
 		               <form class=" " action="" method="POST">
 					   <div class="form-row">
 							<div class="form-group col-xs-12 col-lg-4">
@@ -66,7 +67,7 @@
 							</div>
 						</div>
 					   </form>    
-					   </div>
+					   </div> -->
                     </div>
 
 

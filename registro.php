@@ -35,10 +35,15 @@ $query = "INSERT INTO emy_edecanes(ede_nombre, ede_apellido, ede_email, ede_pass
         if ($DBcon->query($query)) {
             $msg = "<div class='alert alert-success'>
                         <span class='glyphicon glyphicon-info-sign'></span> &nbsp; Registro Exitoso!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
                     </div>";
         }else {
             $msg = "<div class='alert alert-danger'>
+            
                         <span class='glyphicon glyphicon-info-sign'></span> &nbsp; Error fatal 'No se puedo registrar'!
+                        <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+        <span aria-hidden='true'>&times;</span>
                     </div>";
         }
         
@@ -46,7 +51,10 @@ $query = "INSERT INTO emy_edecanes(ede_nombre, ede_apellido, ede_email, ede_pass
         
         
         $msg = "<div class='alert alert-danger'>
+        
                     <span class='glyphicon glyphicon-info-sign'></span> &nbsp; Lo lamento correo ya en uso!
+                    <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+        <span aria-hidden='true'>&times;</span>
                 </div>";
             
     }
@@ -329,5 +337,3 @@ $DBcon->close();
 </section>
 
 <div class="spacer__sm"></div>
-
-<?php require_once"footer.php"; ?>
