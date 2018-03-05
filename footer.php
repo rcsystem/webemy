@@ -1,8 +1,7 @@
 
 <hr>
-		<footer>
-
-		<div id="info-empresa" class="home-footer contenedor row">
+<footer>
+	<div id="info-empresa" class="home-footer contenedor row">
 			<div class="col-lg-4">
 				<div class="home-social"></div>
 				 <h5 class="text-aqua">Horarios </h5>
