@@ -46,10 +46,26 @@ if (isset($_POST['btn-login'])) {
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="Agencia digital a sus servicios">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv=”Cache-Control” content=”no-cache, mustrevalidate”>
+	<!--<meta http-equiv=”Cache-Control” content=”no-cache, mustrevalidate”>-->
+
+
+ 		<meta name="description" content="Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos sociales, culturales y de negocios, a cualquier magnitud, con el uso de los más avanzados servicios de comunicación; logrando con ello la total satisfacción de nuestros clientes.">
+		<meta name="keywords" content="EMY, Edecanes, Modelos, Agencia de Modelos México, Agencia, Modelaje">
+
+		<!--Metas para Compartir en Facebook -->
+		<meta property="og:title" content="EMY Modelos y Edecanes S.A. de C.V."/>
+		<meta property="og:description" content="Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos sociales, culturales y de negocios, a cualquier magnitud, con el uso de los más avanzados servicios de comunicación; logrando con ello la total satisfacción de nuestros clientes."/>
+		<meta property="og:image" content="http://emy.mx/assets/images/logo_emy.jpg"/>
+
+
+		<!--Metas para compartir en Twitter-->
+		<meta name="twitter:card" content="Emy Modelos y Edecanes S.A. de C.V."/>
+		<meta name="twitter:site" content="@emy.edecanes"/>
+		<meta name="twitter:title" content="EMY Modelos y Edecanes"/>
+		<meta name="twitter:description" content="Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos sociales, culturales y de negocios, a cualquier magnitud, con el uso de los más avanzados servicios de comunicación; logrando con ello la total satisfacción de nuestros clientes."/>
+		<meta name="twitter:image" content="http://emy.mx/assets/images/logo_emy.jpg"/>
 
 <!-- Link para los estilos CCS -->
 	<link rel="stylesheet" href="assets/css/normalize.css">
@@ -93,7 +109,7 @@ if (isset($_POST['btn-login'])) {
 
 					<div class="home-contacto col-lg-5 col-xs-12" >
 
-					<!--Formulario de registro
+					<!--Formulario de registro-->
 						<div class="form-contacto">
 		               <form class=" " action="" method="POST">
 						    <div class="form-row">
@@ -108,7 +124,7 @@ if (isset($_POST['btn-login'])) {
 							</div>
 						</div>
 					   </form>    
-					   </div> -->
+					   </div> 
                     </div>
 
 

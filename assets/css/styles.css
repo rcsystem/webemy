@@ -26,7 +26,7 @@ body {
   height: 62px;
   margin-top: 10px; }
 
-@media (max-width: 480px) {
+@media screen and (min-width: 481px) and (max-width: 968px) {
   .home-logo {
     padding: 0 auto; } }
 
@@ -50,7 +50,7 @@ body {
 .home-inicio {
   padding-left: -15px;
   padding-top: 11px; }
-  @media (max-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .home-inicio {
       text-align: center; } }
 
@@ -59,7 +59,7 @@ body {
   position: fixed;
   z-index: 100;
   background-color: #513e7a; }
-  @media (max-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .home-menu {
       position: fixed;
       z-index: 120;
@@ -70,7 +70,7 @@ body {
   padding-top: 26px; }
   .home-contacto i {
     font-size: 18px; }
-  @media (max-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .home-contacto {
       display: none; } }
 
@@ -91,7 +91,7 @@ body {
   width: 100%;
   height: 550px;
   margin-bottom: 75px; }
-  @media (max-width: 640px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .carrusel {
       width: 100%;
       height: 200px; } }
@@ -100,7 +100,7 @@ body {
   height: 550px; }
   .carrusel .carousel-item img {
     width: 100%; }
-  @media (max-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .carrusel .carousel-item {
       height: 200px; } }
 
@@ -125,7 +125,7 @@ body {
       -webkit-transition: .8s;
       -o-transition: .8s;
       transition: .8s; }
-  @media (max-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .home-slider {
       margin-top: -110px;
       margin-left: 180px; }
@@ -285,7 +285,7 @@ body {
   color: #fff;
   background: none; }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 968px) {
   #wrapper {
     padding-left: 0; }
   #wrapper.toggled {
@@ -451,7 +451,7 @@ body {
 .isotope-item .btn-default:hover {
   color: #ffffff; }
 
-@media (max-width: 480px) {
+@media screen and (min-width: 481px) and (max-width: 968px) {
   .filters .nav-pills > li {
     width: 100%;
     display: block; } }
@@ -469,7 +469,7 @@ body {
   bottom: -1px;
   left: 0;
   right: -1px;
-  background-color: rgba(190, 42, 190, 0.8);
+  background-color: rgba(190, 42, 190, 0.4);
   cursor: pointer;
   overflow: hidden;
   opacity: 0;
@@ -567,7 +567,7 @@ body {
 .home-mapa iframe {
   width: 720px;
   height: 250px; }
-  @media (max-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .home-mapa iframe {
       width: 320px;
       height: 250px; } }
@@ -601,7 +601,7 @@ body {
 
 .home_juntar {
   padding-top: 83px; }
-  @media (max-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .home_juntar {
       padding-top: 137px; } }
 
@@ -610,7 +610,7 @@ body {
   padding-top: 110px;
   width: 92%;
   margin-bottom: 75px; }
-  @media only screen and (max-width: 999px) and (min-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .registro_juntar {
       padding-top: 340px; } }
 
@@ -627,7 +627,7 @@ body {
   .btn-sesion:hover {
     background-color: #6c43c4;
     border-color: #6c43c4; }
-  @media (max-width: 481px) {
+  @media screen and (min-width: 481px) and (max-width: 968px) {
     .btn-sesion {
       width: 100%; }
       .btn-sesion:hover {
@@ -636,3 +636,10 @@ body {
 @media (max-width: 480px) {
   .form-contacto {
     display: none; } }
+
+.img-logo {
+  text-align: center; }
+
+.info-imp-item img {
+  text-align: center;
+  height: 450px; }

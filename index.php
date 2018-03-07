@@ -81,14 +81,17 @@
     <div  class="info-emp container">
       <div class="row">
           <div class="info-imp-item col-lg-6">
-            <img src="assets/images/info-emp.jpg" class="rounded img-fluid" alt="">
+            <img src="assets/images/logo_emy.jpg" class="rounded img-fluid img-logo" alt="">
 
           </div>
 
           <div  class="home-titulos info-imp-item col-lg-6">
+			  <div class="espacio"></div>
+			  <div class="empresa">
 			<h2>EMY EDECANES Y MODELOS, S.A. DE C.V. </h2>
             <p>Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos sociales, culturales y de negocios, a cualquier magnitud, con el uso de los más avanzados servicios de comunicación; logrando con ello la total satisfacción de nuestros clientes.</p>
-               <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> contáctanos</b></a>
+			   <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> contáctanos</b></a>
+			   </div>
         </div>
 
       </div>
@@ -98,7 +101,7 @@
  <section class="carrusel_edecan">
 
 <div class="container-fluid home-titulos">
-  <h2 class=" text-center mb-3">Conoce a nuestras edecanes</h2>
+  <h2 class=" text-center mb-3">Galería de Eventos</h2>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner row w-100 mx-auto">
       
@@ -107,13 +110,13 @@
       			<div class="col-md-4">
         			<div class="image-box">
 						<div class="overlay-container">
-                            <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                            <img src="assets/images/edecanes/edecan_01.jpg" class="img-galeria" alt="">
 								<a class="overlay" data-toggle="modal" data-target="#project-2">
 									<i class="fa fa-search-plus"></i>
 										<span>EMY EDECANES Y MODELOS</span>
 								</a>
 						</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 					</div>
         		</div>
 
@@ -121,13 +124,13 @@
         		<div class="col-md-4">
       				<div class="image-box">
 						<div class="overlay-container">
-                            <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                            <img src="assets/images/edecanes/edecan_02.jpg" class="img-galeria" alt="">
 								<a class="overlay" data-toggle="modal" data-target="#project-2">
 									<i class="fa fa-search-plus"></i>
 									<span>EMY EDECANES Y MODELOS</span>
 								</a>
 						</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 					</div>
    				</div>
 
@@ -135,13 +138,13 @@
         		<div class="col-md-4">
         			<div class="image-box">
 						<div class="overlay-container">
-                            <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                            <img src="assets/images/edecanes/edecan_03.jpg" class="img-galeria" alt="">
 								<a class="overlay" data-toggle="modal" data-target="#project-2">
 									<i class="fa fa-search-plus"></i>
 									<span>EMY EDECANES Y MODELOS</span>
 								</a>
 						</div>
-							<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+							<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 					</div>
     			</div>
 			</div>
@@ -153,39 +156,39 @@
       		<div class="col-md-4">
     			<div class="image-box">
 					<div class="overlay-container">
-                        <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                        <img src="assets/images/edecanes/edecan_04.jpg" class="img-galeria" alt="">
 							<a class="overlay" data-toggle="modal" data-target="#project-2">
 								<i class="fa fa-search-plus"></i>
 								<span>EMY EDECANES Y MODELOS</span>
 							</a>
 					</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 				</div>
         	</div>
 
         	<div class="col-md-4">
     			 <div class="image-box">
 					<div class="overlay-container">
-                         <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                         <img src="assets/images/edecanes/edecan_05.jpg" class="img-galeria" alt="">
 							<a class="overlay" data-toggle="modal" data-target="#project-2">
 								<i class="fa fa-search-plus"></i>
 								<span>EMY EDECANES Y MODELOS</span>
 							</a>
 					</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 				</div>
     		</div>
 
         	<div class="col-md-4">
       			<div class="image-box">
 					<div class="overlay-container">
-                        <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                        <img src="assets/images/edecanes/edecan_06.jpg" class="img-galeria" alt="">
 							<a class="overlay" data-toggle="modal" data-target="#project-2">
 								<i class="fa fa-search-plus"></i>
 								<span>EMY EDECANES Y MODELOS</span>
 							</a>
 					</div>
-					<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+					<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 				</div>
     </div>
 </div>
@@ -195,37 +198,37 @@
       	<div class="col-md-4">
     <div class="image-box">
 									<div class="overlay-container">
-                                    <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                                    <img src="assets/images/edecanes/edecan_07.jpg" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
 											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 								</div>
         </div>
         <div class="col-md-4">
      <div class="image-box">
 									<div class="overlay-container">
-                                    <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                                    <img src="assets/images/edecanes/edecan_08.jpg" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
 											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 								</div>
     </div>
         <div class="col-md-4">
       <div class="image-box">
 									<div class="overlay-container">
-                                    <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                                    <img src="assets/images/edecanes/edecan_09.jpg" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
 											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 								</div>
     </div>
 </div>
@@ -236,37 +239,282 @@
       	<div class="col-md-4">
     <div class="image-box">
 									<div class="overlay-container">
-                                    <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                                    <img src="assets/images/edecanes/edecan_10.jpg" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
 											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 								</div>
         </div>
         <div class="col-md-4">
      <div class="image-box">
 									<div class="overlay-container">
-                                    <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                                    <img src="assets/images/edecanes/edecan_11.jpg" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
 											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 								</div>
     </div>
         <div class="col-md-4">
       <div class="image-box">
 									<div class="overlay-container">
-                                    <img src="assets/images/portfolio-10.png" class="img-galeria" alt="">
+                                    <img src="assets/images/edecanes/edecan_12.jpg" class="img-galeria" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-2">
 											<i class="fa fa-search-plus"></i>
 											<span>EMY EDECANES Y MODELOS</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">EMY EDECANES Y MODELOS</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+</div>
+	  </div>
+	  
+	  <div class="carousel-item col-md-12">
+       <div class="row">
+      	<div class="col-md-4">
+    <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_13.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+        </div>
+        <div class="col-md-4">
+     <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_14.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+        <div class="col-md-4">
+      <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_15.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+</div>
+	  </div>
+	  <div class="carousel-item col-md-12">
+       <div class="row">
+      	<div class="col-md-4">
+    <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_16.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+        </div>
+        <div class="col-md-4">
+     <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_17.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+        <div class="col-md-4">
+      <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_18.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+</div>
+	  </div>
+	  
+	  <div class="carousel-item col-md-12">
+       <div class="row">
+      	<div class="col-md-4">
+    <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_19.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+        </div>
+        <div class="col-md-4">
+     <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_20.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+        <div class="col-md-4">
+      <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_21.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+</div>
+	  </div>
+	  
+	  <div class="carousel-item col-md-12">
+       <div class="row">
+      	<div class="col-md-4">
+    <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_22.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+        </div>
+        <div class="col-md-4">
+     <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_23.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+        <div class="col-md-4">
+      <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_24.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+</div>
+	  </div>
+	  
+	  <div class="carousel-item col-md-12">
+       <div class="row">
+      	<div class="col-md-4">
+    <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_25.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+        </div>
+        <div class="col-md-4">
+     <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_26.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+        <div class="col-md-4">
+      <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_27.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+</div>
+	  </div>
+	  
+	  <div class="carousel-item col-md-12">
+       <div class="row">
+      	<div class="col-md-4">
+    <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_28.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+        </div>
+        <div class="col-md-4">
+     <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_29.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+								</div>
+    </div>
+        <div class="col-md-4">
+      <div class="image-box">
+									<div class="overlay-container">
+                                    <img src="assets/images/edecanes/edecan_30.jpg" class="img-galeria" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>EMY EDECANES Y MODELOS</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
 								</div>
     </div>
 </div>
@@ -302,7 +550,7 @@
 
     <div class="row">
         <div class="col-lg-4 img-circle">
-			<img src="assets/images/caras02.jpg" class="rounded-circle img-fluid" />
+			<img src="assets/images/rostros/rostro_03.jpg" class="rounded-circle img-fluid" />
 			
 			<div class="info">
 				
@@ -315,7 +563,7 @@
 
 
         <div class="col-lg-4 img-circle">
-            <img src="assets/images/caras01.jpg" class=" rounded-circle img-fluid" />
+            <img src="assets/images/rostros/rostro_01.jpg" class=" rounded-circle img-fluid" />
 			<div class="info">
 				
 				<h3>Edecán AA</h3>
@@ -326,7 +574,7 @@
         </div>
 
         <div class="col-lg-4 img-circle">
-            <img src="assets/images/caras03.jpg" class=" rounded-circle img-fluid" />
+            <img src="assets/images/rostros/rostro_02.jpg" class=" rounded-circle img-fluid" />
 			<div class="info">
 				
 				<h3>Edecán AAA</h3>
@@ -361,6 +609,9 @@
 			  
 			   </ul>
 			   <p>¡¡TE ESTAMOS BUSCANDO!!</p>
+			   <p><b>Recuerda:</b> <br>	
+Emy modelos y edecanes S.A. de C.V. Solo te contactara por los medios oficiales. Todos los datos son confidenciales y no pueden ser usados con otros fines.
+</p>
 			   <div class=" mx-auto text-center">
                <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> contáctanos</b></a>
 			   </div>

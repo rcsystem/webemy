@@ -81,7 +81,7 @@
     </script>-->
 <script>
   $(window).resize(function() {
-  if ($('html').width() <= 489) {
+  if ($('html').width() <= 1265) {
 
       $( "#wrapper" ).removeClass( "toggled" );
 

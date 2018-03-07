@@ -58,12 +58,12 @@
         <div class="content">
         <div class="row contenedor text-blanco mt-0">
             <div class="col-md-3 mb-4">
-                <h5 class="text-blanco">Reservaciones e información</h5>
-                <p class="mb-0">+52  998  689 10 13</p>
-                <p class="font-weight-bold">correo@emy.mx </p>
+                <h5 class="text-blanco">Información y Cotizaciones</h5>
+                <p class="mb-0">+(55) 58 92 69 77</p>
+                <p class="font-weight-bold">ventas@emy.mx </p>
             </div>
             <div class="col-md-3 mb-4">
-                <h5 class="text-blanco">Compras</h5>
+                <h5 class="text-blanco"></h5>
                 <p class="mb-0">+52  998  848 83 03</p>
                 <p class="font-weight-bold">correo@emy.mx </p>
             </div>
