@@ -45,14 +45,38 @@
 											<div class="modal-body">
 												<h3>Project Description</h3>
 												<div class="row">
-													<div class="col-md-6">
-														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-													</div>
-													<div class="col-md-6">
+													<div class="col-md-4">
+													<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">													</div>
+													<div class="col-md-4">
 														<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">
 													</div>
-												</div>
+													<div class="col-md-4">
+														<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">
+													</div>
+													</div> <!--div del row -->
+													<br>
+													<div class="row">
+													<div class="col-md-4">
+													<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">													</div>
+													<div class="col-md-4">
+														<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">
+													</div>
+													<div class="col-md-4">
+														<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">
+													</div>
+													</div>
+													<br>
+													<div class="row">
+													<div class="col-md-4">
+													<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">													</div>
+													<div class="col-md-4">
+														<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">
+													</div>
+													<div class="col-md-4">
+														<img src="assets/images/portfolio-11.jpg" class="img-galeria" alt="">
+													</div>
+													</div><!--div del row -->
+												
 											</div>
 											<div class="modal-footer">
 												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>

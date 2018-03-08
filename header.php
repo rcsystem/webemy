@@ -161,9 +161,9 @@ if (isset($_POST['btn-login'])) {
                 <li>
 				<a  data-toggle="collapse" href="#colla-2" role="button" aria-expanded="false" aria-controls="collapseExample">Edecanes <i class="icon-angle-down" style="font-size:12px;"></i></a>
 				<ul class="collapse list-unstyled" id="colla-2">
-					<li><a href="mantenimiento.php">A</a></li>
-            		<li><a href="mantenimiento.php">AA</a></li>
-					<li><a href="mantenimiento.php">AAA</a></li>
+					<li><a href="edecan_a.php">A</a></li>
+            		<li><a href="edecan_aa.php">AA</a></li>
+					<li><a href="edecan_aaa.php">AAA</a></li>
 				</ul>
 				</li>
                 <li>

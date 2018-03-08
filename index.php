@@ -90,7 +90,7 @@
 			  <div class="empresa">
 			<h2>EMY EDECANES Y MODELOS, S.A. DE C.V. </h2>
             <p>Brindamos un servicio de clase mundial, con soluciones integrales en publicidad y promoción para todo tipo de eventos sociales, culturales y de negocios, a cualquier magnitud, con el uso de los más avanzados servicios de comunicación; logrando con ello la total satisfacción de nuestros clientes.</p>
-			   <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> contáctanos</b></a>
+			   <a href="contacto.php" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> contáctanos</b></a>
 			   </div>
         </div>
 
@@ -111,13 +111,20 @@
         			<div class="image-box">
 						<div class="overlay-container">
                             <img src="assets/images/edecanes/edecan_01.jpg" class="img-galeria" alt="">
-								<a class="overlay" data-toggle="modal" data-target="#project-2">
+								<a class="overlay" data-toggle="modal" data-target="#project-1">
 									<i class="fa fa-search-plus"></i>
 										<span>EMY EDECANES Y MODELOS</span>
 								</a>
 						</div>
-						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2"></a>
+						<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1"></a>
 					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+									<img src="assets/images/edecanes/edecan_01.jpg" class="img-galeria img-thumbnail" style="width:100%; heigth:auto;" alt="">
+									</div>
+								</div>
+								<!-- Modal end -->
         		</div>
 
 
@@ -613,7 +620,7 @@
 Emy modelos y edecanes S.A. de C.V. Solo te contactara por los medios oficiales. Todos los datos son confidenciales y no pueden ser usados con otros fines.
 </p>
 			   <div class=" mx-auto text-center">
-               <a href="#info-empresa" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> contáctanos</b></a>
+               <a href="nuestro_equipo.php" class="btn btn-lg btn-default home-btn-contacto text-center"> <b> Conocenos</b></a>
 			   </div>
         </div>
 
